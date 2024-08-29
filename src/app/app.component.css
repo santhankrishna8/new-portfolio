@@ -777,15 +777,17 @@ i{
     right: 930px;
 }
 .right .nav{
-    height: 10vh;
-    width: 28rem;
+    height: 5vh;
+    width: 30rem;
     display: flex;
-    margin: auto;
+    margin-left: 36rem;
     flex-direction: row;
-    border-radius: 20px;
     background-color: #fff;
     align-items: center;
     justify-content: center;
+}
+.right .phoneLogo{
+    display: none;
 }
 
 .right .content{
@@ -804,9 +806,7 @@ i{
     text-decoration: none;
     color: rgb(0, 0, 0);
     margin-right: 25px;
-    font-size: 1.1rem;
-    
-    
+    font-size: 1.1rem;  
 }
 .right .nav .menu a:hover{
     color:#5892ea;
