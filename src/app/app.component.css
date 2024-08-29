@@ -825,7 +825,7 @@ i{
     display: flex;
 }
 .l{
-    flex:60%;
+    flex:50%;
     
 }
 .l h2{
@@ -858,15 +858,15 @@ i{
 
 }
 .r{
-    flex:40%;
+    flex:50%;
     margin-top: 3rem;
 }
 .box{
     -webkit-background-site:cover ;
     background-size: cover;
     background-position: center center;
-    height:300px;
-    width: 250px;
+    height:200px;
+    width: 150px;
     margin-left: -5rem;
     box-shadow: 0 20px 5px 5px rgba(0,0,0,0.2);
     animation:animate 5s ease-in-out infinite;
