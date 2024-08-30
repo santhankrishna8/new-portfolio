@@ -605,11 +605,12 @@ i{
    
     
 .container{
-    display: flex;
-    flex-direction: column;
-    margin:120px;
+    display: block;
+    /* flex-direction: column; */
+    margin-left: auto;
+    margin-right: auto;
     height: 90vh;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     /* flex-wrap: wrap; */
     gap: 25px;
     /* overflow:hidden; */
@@ -760,7 +761,7 @@ i{
    }
  */
 
-
+ 
 
 
 
@@ -775,19 +776,17 @@ i{
 .right{
     height: 60vh;
     background-color:#fff;
-    display: flex;
-    flex-direction: column;
+    float: left;
     gap: 30px;
-    position: absolute; /* Add this line */
-    top: 0; /* Adjust as needed */
-    right: 930px;
+    margin-left: 0;
 }
 .right .nav{
     height: 7vh;
     width: 30rem;
-    display: flex;
-    margin-left: 39rem;
-    flex-direction: row;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* flex-direction: row; */
     background-color: #fff;
 
     align-items: center;
