@@ -824,7 +824,7 @@ i{
 }
 .l{
     flex:50%;
-    margin-left: -2rem;
+    /* margin-left: -2rem; */
     
 }
 .l h2{
@@ -934,7 +934,7 @@ i{
     cursor: pointer;
     transition: all 0.5s;
     user-select: none;
-
+    text-align: center;
     color: black;
     margin: 20px;
   }
