@@ -942,9 +942,7 @@ i{
     scale:1.03;
     
 } 
-.intro h3{
-    
-}
+
 .experience{
     display: flex;
     flex-direction: row;
@@ -1008,8 +1006,8 @@ i{
     
     display: block;
     margin: 10px auto;
-    max-height: 100px;
-    height: 100px;
+    max-height: 80px;
+    height: 80px;
     object-fit:fill;
     
 }
