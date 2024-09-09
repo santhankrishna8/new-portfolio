@@ -1041,7 +1041,9 @@ h3{
 
 #projects{
     
-    margin: 36px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .all{
