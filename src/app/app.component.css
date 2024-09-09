@@ -929,8 +929,8 @@ i{
 
 .card {
     box-sizing: border-box;
-    width: 220px;
-    height: 224px;
+    width: 240px;
+    height: 250px;
     border-radius: 17px;
     box-shadow: 5px 5px 5px 5px #e2eaee;
     cursor: pointer;
