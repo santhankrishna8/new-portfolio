@@ -1115,10 +1115,12 @@ h3{
 .contact-container{
   
     height: 100vh;
+    width: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+
+    justify-content: center;
   }
   .contact-left{
     display: flex;
