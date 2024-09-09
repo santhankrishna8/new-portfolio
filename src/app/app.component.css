@@ -827,9 +827,7 @@ i{
     margin-left: -2rem;
     
 }
-H3{
-text-align: center;
-}
+
 .l h2{
     color:rgb(61, 188, 242);;
     font-size: 30px;
@@ -954,7 +952,9 @@ text-align: center;
     
     
 }
-
+h3{
+   
+}
 
 .education{
     display: grid;
@@ -999,9 +999,9 @@ text-align: center;
 .icon {
     text-align: center;
     margin: 20px;
-    height: 80px;
-    width: 90px;
-    border-radius: 25px;
+    height: 120px;
+    width: 95px;
+    border-radius: 15px;
     box-shadow: 5px 5px 5px 5px #e2eaee;
 }
 
