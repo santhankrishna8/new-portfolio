@@ -920,7 +920,9 @@ i{
     transform: translateY(4px);
   }
   
-
+#about{
+    margin-top: -4rem;
+}
 
 .card {
     box-sizing: border-box;
