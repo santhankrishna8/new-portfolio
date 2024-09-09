@@ -1115,18 +1115,26 @@ h3{
 .contact-container{
   
     height: 100vh;
-    width: 80vh;
+    width: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    justify-content: center;
+    justify-content: space-evenly;
+    
+  }
+  .f{
+    
+   text-align: center;
   }
   .contact-left{
+    /* margin-left: -10rem; */
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap:20px;
+    justify-content: center;
+    align-items: center;
+    
+
   }
   .contact-left-title a{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -1149,8 +1157,8 @@ h3{
   }
   
   .contact-inputs{
-    width: 400px;
-    height:50px;
+    width: 200px;
+    height:30px;
     border:none;
     outline:none;
     padding-left: 25px;
@@ -1191,6 +1199,7 @@ h3{
     font-weight: 800;
     font-size: 20px;
     display:flex;
+    margin-top: -5rem;
     flex-direction:column;
     align-items: flex-start;
     
