@@ -1042,7 +1042,7 @@ h3{
 #projects{
     
     text-align: center;
-    margin-left: 7rem;
+    
 
 }
 .all{
@@ -1052,7 +1052,11 @@ h3{
     
 }
 .proj{
-    margin: 30px;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
     height: 280px;
     width: 200px;
     box-shadow: 5px 5px 5px 5px #c8c9c9;
@@ -1060,6 +1064,7 @@ h3{
     padding: 9px;
     border-radius: 20px;
     border: 2px solid rgb(54, 161, 219);
+
    
 }
 .proj a{
