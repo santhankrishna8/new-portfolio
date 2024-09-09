@@ -775,6 +775,7 @@ i{
 
 .right{
     height: 60vh;
+    left:0;
     background-color:#fff;
     float: left;
     gap: 30px;
@@ -782,13 +783,10 @@ i{
 }
 .right .nav{
     height: 7vh;
-    width: 30rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /* flex-direction: row; */
+    width: 28.6rem;
+    display: flex;
+    text-align: center;
     background-color: #fff;
-
     align-items: center;
     justify-content: center;
 }
@@ -797,11 +795,11 @@ i{
 }
 
 .right .content{
-    margin-top: 3.9rem;
-    margin-left: 39rem;
+    margin-top: 3.5rem;
+    
     border-radius: 20px;
     height: 87vh;
-    width: 28rem; 
+    width: 28.6rem; 
     background-color: #fff;
     overflow-y: scroll;
     position: fixed;
@@ -866,7 +864,8 @@ i{
     background-position: center center;
     height:200px;
     width: 150px;
-    /* margin-left: -5rem; */
+    object-fit: fill;
+    margin-left: 1rem;
     box-shadow: 0 20px 5px 5px rgba(0,0,0,0.2);
     animation:animate 5s ease-in-out infinite;
     transition:all 1s ease-in-out;
@@ -891,7 +890,7 @@ i{
     padding: 10px 20px;
     width: 100px;
     height: 24px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -923,8 +922,8 @@ i{
 
 .card {
     box-sizing: border-box;
-    width: 340px;
-    height: 254px;
+    width: 220px;
+    height: 224px;
     backdrop-filter: blur(6px);
     border-radius: 17px;
     box-shadow: 5px 5px 5px 5px #e2eaee;
