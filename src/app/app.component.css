@@ -824,7 +824,7 @@ i{
 }
 .l{
     flex:50%;
-    /* margin-left: -2rem; */
+    margin-left: -2rem;
     
 }
 .l h2{
@@ -856,6 +856,7 @@ i{
 
 
 }
+
 .r{
     flex:50%;
     margin-top: 3rem;
@@ -928,7 +929,6 @@ i{
     box-sizing: border-box;
     width: 220px;
     height: 224px;
-    backdrop-filter: blur(6px);
     border-radius: 17px;
     box-shadow: 5px 5px 5px 5px #e2eaee;
     cursor: pointer;
