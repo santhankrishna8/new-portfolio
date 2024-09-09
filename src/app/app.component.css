@@ -942,7 +942,9 @@ i{
     scale:1.03;
     
 } 
-  
+.intro h3{
+    
+}
 .experience{
     display: flex;
     flex-direction: row;
@@ -988,7 +990,6 @@ i{
 }
 .icons {
     display: flex;
-   
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -997,8 +998,8 @@ i{
 .icon {
     text-align: center;
     margin: 20px;
-    height: 150px;
-    width: 140px;
+    height: 80px;
+    width: 90px;
     border-radius: 25px;
     box-shadow: 5px 5px 5px 5px #e2eaee;
 }
