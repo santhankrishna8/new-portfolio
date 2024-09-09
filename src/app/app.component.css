@@ -1041,14 +1041,14 @@ h3{
 
 #projects{
     
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 
 }
 .all{
     display: grid;
     grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    
 }
 .proj{
     margin: 30px;
