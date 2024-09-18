@@ -665,22 +665,19 @@ i{
     max-width: 100%;
     border: 1px solid black;
     display: flex;
+    gap: 1px;
     border-radius: 15px;
-   
-    /* background-color: 1px solid black; */
-    text-align: center;
-    /* background-color: #fff; */
     align-items: center;
     justify-content: center;
     font-size: medium;
-    padding-bottom: 10px;
+    
 }
 .right .phoneLogo{
     display: none;
 }
 
 .right .content{
-    margin-top: 3rem;
+    margin-top: 4rem;
     border-radius: 0px;
     height: 100vh;
     max-width: fit-content;
@@ -695,14 +692,14 @@ i{
     text-decoration: none;
     color: rgb(0, 0, 0);
     margin-right: 20px;
-    font-size: 1.1rem;  
+    font-size: 1.1rem; 
+    padding: 1px; 
 }
 .right .nav .menu a:hover{
     color:#5892ea;
 }
 #home{
-    margin-top: 2rem;
-    
+    margin-top: 1rem;
     width: 97.7vw;
     display: flex;
 }
@@ -714,7 +711,7 @@ i{
 
 .l h2{
     color:rgb(61, 188, 242);;
-    font-size: 30px;
+    font-size:7vw;
     font-weight: 900;
     margin-left: 60px;
     margin-top: -19px;
