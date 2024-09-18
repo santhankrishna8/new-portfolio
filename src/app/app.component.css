@@ -819,7 +819,6 @@ i{
     justify-content: center;
     align-items: center;
    
-    margin-left: -3.rem; /* Center the section horizontally */
     margin-right: auto;
     width: 100%; /* Take up full width */
     max-width: 600px; /* Limit the width on larger screens */
