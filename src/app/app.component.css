@@ -1,3 +1,4 @@
+ 
 *{
     
     font-family:Helvetica;
@@ -10,7 +11,7 @@ html{
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    background-color: rgb(222, 220, 220);
+    background-color:gray;
     border-radius: 20px;
 }
 
@@ -594,13 +595,17 @@ i{
     align-items: flex-start;
     
   }
-  @media screen and (max-width: 36rem)  {
+ 
+
+
+@media screen and (max-width: 36rem)  {
     html{
-        margin-top: -2rem;
+    
         padding: 0;
         scroll-behavior: smooth;
-        background-color: rgb(222, 220, 220);
         left: 0;
+        height:100vh;
+        background-color: #fff;
     } 
    
     
@@ -622,149 +627,9 @@ i{
 }
 .left{
     display: none;
-    /* background-color:#fff;
-    height: 91.5vh;
-    width:280px;
-    border-radius: 20px;
-    overflow: hidden;
-    left: 150px;
-    position: fixed; */
    
 }
-/* .left .social ul{
-    display: flex;
-    justify-content: center;
-    margin-left: -25px;
-}
-.fa {
-    font-size: 1.8rem;
-    scale:.8;
-    margin-right: 1px;
-    
-}
-i{
-    color:black;
-    background-color:paleturquoise;
-    background: #e3edf7;
-    padding: 1.3rem;
-    width:30px;
-    height:30px;
-    border-radius: 50%;
-    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
-	      -6px -6px 10px -1px rgba(255,255,255,0.7);
-    border: 1px solid rgba(0,0,0,0);
-    cursor: pointer;
-    transition: transform 0.5s;
-    text-align: center;
-    align-content: center;
-    margin-top: 10px;
-}
-.fa:hover{
-    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
-	      inset -4px -4px 6px -1px rgba(255,255,255,0.7),
-	      -0.5px -0.5px 0px rgba(255,255,255,1),
-	      0.5px 0.5px 0px rgba(0,0,0,0.15),
-	      0px 12px 10px -10px rgba(0,0,0,0.05);
-  border: 1px solid rgba(0,0,0,0.1);
-  transform: translateY(-0.4em) ;
-  fill: #333333;
-    
-    
-}
-.profile{
-    border-radius: 50%;
-    width: 140px;
-    height: 140px;
-    object-fit: cover;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-   
 
-}
-.resume{
-    display: flex;
-    justify-content: center;
-}
-.buttonDownload {
-    display: inline-block;
-    position: relative;
-    padding: 10px 25px;
-    background-color:rgb(61, 188, 242);
-    color: white;
-    font-family: sans-serif;
-    text-decoration: none;
-    font-size: 1em;
-    text-align: center;
-    text-indent: 15px;
-    border: none;
-    cursor: pointer;
-    border-radius: 20px;
-   }
-   
-   .buttonDownload:hover {
-    background-color: rgb(30, 89, 114);
-    color: white;
-   }
-   
-   .buttonDownload:before, .buttonDownload:after {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 15px;
-    top: 52%;
-   }
-   
-   .buttonDownload:before {
-    width: 10px;
-    height: 2px;
-    border-style: solid;
-    border-width: 0 2px 2px;
-   }
-   
-   .buttonDownload:after {
-    width: 0;
-    height: 0;
-    margin-left: 3px;
-    margin-top: -7px;
-    border-style: solid;
-    border-width: 4px 4px 0 4px;
-    border-color: transparent;
-    border-top-color: inherit;
-    animation: downloadArrow 1s linear infinite;
-    animation-play-state: paused;
-   }
-   
-   .buttonDownload:hover:before {
-    border-color: #cdefbd;
-   }
-   
-   .buttonDownload:hover:after {
-    border-top-color: #cdefbd;
-    animation-play-state: running;
-   }
-   
-   @keyframes downloadArrow {
-    0% {
-     margin-top: -7px;
-     opacity: 1;
-    }
-   
-    0.001% {
-     margin-top: -15px;
-     opacity: 0.4;
-    }
-   
-    50% {
-     opacity: 1;
-    }
-   
-    100% {
-     margin-top: 0;
-     opacity: 0.4;
-    }
-   }
- */
 
  
 
@@ -779,32 +644,46 @@ i{
 
 
 .right{
-    height: 60vh;
+    margin-top: -2.2rem;
+    height: 80vh;
     left:0;
     background-color:#fff;
     float: left;
     gap: 30px;
     margin-left: -9px;
+    
 }
+.menu a{
+    font-size: 10px; 
+}
+
+
 .right .nav{
     height: 7vh;
-    width: 26rem;
+    /* width: 22rem; */
+    width: 97.7vw;
+    max-width: 100%;
+    border: 1px solid black;
     display: flex;
+    border-radius: 15px;
+   
+    /* background-color: 1px solid black; */
     text-align: center;
-    background-color: #fff;
+    /* background-color: #fff; */
     align-items: center;
     justify-content: center;
+    font-size: medium;
+    padding-bottom: 10px;
 }
 .right .phoneLogo{
     display: none;
 }
 
 .right .content{
-    margin-top: 4rem;
-    
-    border-radius: 20px;
-    height: 87vh;
-    width: 26rem; 
+    margin-top: 3rem;
+    border-radius: 0px;
+    height: 100vh;
+    max-width: fit-content;
     background-color: #fff;
     overflow-y: scroll;
     position: fixed;
@@ -815,21 +694,21 @@ i{
 .right .nav .menu a{
     text-decoration: none;
     color: rgb(0, 0, 0);
-    margin-right: 25px;
+    margin-right: 20px;
     font-size: 1.1rem;  
 }
 .right .nav .menu a:hover{
     color:#5892ea;
 }
 #home{
-    margin-top: 3rem;
-    height: 75vh;
-   
+    margin-top: 2rem;
+    
+    width: 97.7vw;
     display: flex;
 }
 .l{
     flex:50%;
-    margin-left: -2rem;
+    margin-left: -3rem;
     
 }
 
@@ -846,7 +725,7 @@ i{
     content:"";
     position: absolute;
     height: 100%;
-    width: 100%;
+    width: max-content;
     background: #fff;
     border-left:2px solid black;
     left:0;
@@ -866,15 +745,17 @@ i{
 .r{
     flex:50%;
     margin-top: 3rem;
+    margin-left: -2rem;
 }
 .box{
     -webkit-background-site:cover ;
     background-size: cover;
     background-position: center center;
     height:200px;
-    width: 170px;
+    max-width: 160px;
+
     object-fit: fill;
-    margin-left: 1rem;
+    margin-left: 2rem;
     box-shadow: 0 20px 5px 5px rgba(0,0,0,0.2);
     animation:animate 5s ease-in-out infinite;
     transition:all 1s ease-in-out;
@@ -927,8 +808,82 @@ i{
     transform: translateY(4px);
   }
   
-#about{
-    margin-top: -10rem;
+
+
+
+  
+/* Ensuring the #about section is centered both vertically and horizontally */
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    margin-left: -3.rem; /* Center the section horizontally */
+    margin-right: auto;
+    width: 100%; /* Take up full width */
+    max-width: 600px; /* Limit the width on larger screens */
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+/* Card styling remains the same */
+.card {
+    box-sizing: border-box;
+    width: 100%; /* Full width for mobile responsiveness */
+    max-width: 240px; /* Restrict the card's max width */
+    height: 250px;
+    border-radius: 17px;
+    box-shadow: 5px 5px 5px 5px #e2eaee;
+    cursor: pointer;
+    transition: all 0.5s;
+    user-select: none;
+    text-align: center;
+    color: black;
+    margin: 20px auto; /* Center the card */
+}
+
+.card:hover {
+    scale: 1.03;
+}
+
+.experience, .education {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0; /* Remove any default margins */
+}
+
+.experience {
+    flex-direction: row;
+}
+
+.education {
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.card img {
+    height: 100px;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+}
+
+.details li {
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+
+
+
+/* #about{
+    margin-top: -5rem;
+    
 }
 
 .card {
@@ -984,8 +939,7 @@ h3{
     margin-bottom: 6px;
     text-align: center;
     
-}
-
+}  */
 
 
 
@@ -1107,7 +1061,23 @@ h3{
     box-shadow: 3px 3px 3px 3px #1a93cb;
 }
 
+.con{
+    display: flex;
+    justify-content: center; /* Horizontally centers */
+    flex-direction: column;
+    align-items: center; /* Vertically centers */
+   
+    width: 100vw;
 
+}
+.tact{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+width: 100vw;
+
+}
 
 
 
@@ -1123,17 +1093,18 @@ h3{
 
 
 #contact{
-    height: 85vh;
+    position: relative;
 }
 .contact-container{
-  
-    height: 100vh;
+    
+    position: relative;
+
     width: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: -11rem;
+    
     
   }
   .f{
@@ -1208,15 +1179,17 @@ h3{
   }
   
   .contact-right{
+    position: relative;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 800;
     font-size: 20px;
     display:flex;
     margin-top: -5rem;
+    margin-bottom: 60px;
     flex-direction:column;
     align-items: flex-start;
     
   }
 
     
-  }
+}
