@@ -701,6 +701,7 @@ i{
 #home{
     margin-top: 1rem;
     width: 97.7vw;
+    height: fit-content;
     display: flex;
 }
 .l{
@@ -815,12 +816,12 @@ i{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+    
     margin-right: auto;
     width: 100%; /* Take up full width */
     max-width: 600px; /* Limit the width on larger screens */
     box-sizing: border-box;
-    position: relative;
+    
     
 }
 
