@@ -853,7 +853,8 @@ i{
 }
 
 .experience {
-    flex-direction: row;
+    flex-direction: column;
+    font-size: small;
 }
 
 .education {
