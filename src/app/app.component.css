@@ -101,9 +101,10 @@ i{
     font-size: 1em;
     text-align: center;
     text-indent: 15px;
-    border: none;
+    border: 1px solid black;
     cursor: pointer;
-    border-radius: 20px;
+    
+    border-radius: 10px;
    }
    
    .buttonDownload:hover {
@@ -383,7 +384,9 @@ i{
     
 }
 
-
+.resume-mobile{
+    display: none;
+}
 
 
 
@@ -629,6 +632,9 @@ i{
     display: none;
    
 }
+.resume{
+    display: block;
+}
 
 
  
@@ -698,6 +704,25 @@ i{
 .right .nav .menu a:hover{
     color:#5892ea;
 }
+.buttonDownload{
+    width: 145px;
+    height: 44px;
+    margin-left: 18px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+.resume-mobile{
+    display: block;
+    margin-left: 40px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
 #home{
     margin-top: 1rem;
     width: 97.7vw;
@@ -719,7 +744,7 @@ i{
 
 
 }
-.l h2::after{
+/* .l h2::after{
     content:"";
     position: absolute;
     height: 100%;
@@ -727,9 +752,9 @@ i{
     background: #fff;
     border-left:2px solid black;
     left:0;
-    animation:typing 3s steps(20) infinite;
-}
-@keyframes typing{
+    
+} */
+/* @keyframes typing{
     100%{
         left:70%;
         margin:0 -35px 0 35px;
@@ -738,7 +763,7 @@ i{
     
 
 
-}
+} */
 
 .r{
     flex:50%;
